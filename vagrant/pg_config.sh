@@ -2,6 +2,14 @@ apt-get -qqy update
 apt-get -qqy install postgresql python-psycopg2
 apt-get -qqy install python-flask python-sqlalchemy
 apt-get -qqy install python-pip
+apt-get install nodejs
+ln -s /usr/bin/nodejs /usr/bin/node
+apt-get -qqy install npm
+#add-apt-repository ppa:webupd8team/java -y
+#apt-get -qqy update
+#apt-get -qqy install oracle-java8-installer 
+#apt-get -qqy oracle-java-8-set-default
+
 pip install bleach
 pip install oauth2client
 pip install requests
