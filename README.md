@@ -1,4 +1,4 @@
-rdb-fullstack
-=============
+setup ubuntu 14 and 16 vms  
 
-Common code for the Relational Databases and Full Stack Fundamentals courses
+#vagrant up  
+#vagrant halt  
