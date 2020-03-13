@@ -1,4 +1,9 @@
-setup ubuntu 14 and 16 vms  
+#setup ubuntu and centos boxes
 
-#vagrant up  
-#vagrant halt  
+### vagrant up  
+### vagrant halt  
+
+## if SSL error occurs means your firewall blocks it. 
+### run: vagrant box add --insecure <boxname>
+### ex:  vagrant box add --insecure bento/ubuntu-16.04
+ 
